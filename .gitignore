@@ -1,0 +1,22 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Local configuration and credentials
+.env
+.env.*
+Secrets.plist
+Secrets.local.plist
+Config.local.swift
+
+# Signing and distribution artifacts
+*.mobileprovision
+*.p12
+*.cer
+*.ipa
+*.xcarchive
+
